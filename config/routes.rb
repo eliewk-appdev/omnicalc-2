@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
 
 
-  
+  get("/web", { :controller => "magic", :action => "web_form"})
 
 
   # =============================
